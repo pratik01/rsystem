@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title pull-left">Item</h3>
+      <div class="btn-group pull-right">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Action <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="/restaurants/new">Add R</a></li>
+          <li><a href="/items/new">Add Item</a></li>
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="panel-body">
+      <table class="table table-bordered table-responsive">
+        <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th></th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <% @items.each do |item| %>
+            <tr>
+              <td><%= item.name %></td>
+              <td><%= item.description %></td>
+
+              <td>
+                <a href="/items/<%= item.id %>" class="btn btn-sm btn-info"><i class="glyphicon glyphicon-move"></i></a>
+                <a href="/items/<%= item.id %>/edit" class="btn btn-sm btn-default"><i class="glyphicon glyphicon-pencil"></i></a>
+                <a class="btn btn-sm btn-danger" data-confirm="Are you sure?" data-method="delete" href="/items/<%= item.id %>" rel="nofollow"><i class="glyphicon glyphicon-trash"></i></a>
+              </td>
+            </tr>
+        <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+</div>

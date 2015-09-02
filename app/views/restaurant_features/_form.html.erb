@@ -1,0 +1,46 @@
+<%= form_for(@restaurant_feature) do |f| %>
+  <% if @restaurant_feature.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@restaurant_feature.errors.count, "error") %> prohibited this restaurant_feature from being saved:</h2>
+
+      <ul>
+      <% @restaurant_feature.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+    <div class="panel panel-default">
+      <div class="panel-heading">Features list</div>
+      <div class="panel-body">
+        <div class="form-group">
+          <label for="inputEmail">Select R</label>
+          <%= f.collection_select(:restaurant_id, Restaurant.all, :id, :name, {},:class=>"form-control") %>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail">F#1</label>
+          <input type="text" name="restaurant_feature[name][]" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="inputEmail">F#2</label>
+          <input type="text" name="restaurant_feature[name][]" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="inputEmail">F#3</label>
+          <input type="text" name="restaurant_feature[name][]" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="inputEmail">F#4</label>
+          <input type="text" name="restaurant_feature[name][]" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="inputEmail">F#5</label>
+          <input type="text" name="restaurant_feature[name][]" class="form-control">
+        </div>
+      </div>
+    </div>
+  <div class="actions">
+    <button type="submit" class="btn btn-primary">Save</button>
+    <%= link_to 'Back', restaurant_features_path,:class => "btn btn-default" %>
+  </div>
+<% end %>

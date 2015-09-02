@@ -1,0 +1,64 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+        <ul class="media-list">
+          <li class="media">
+            <div class="media-left">
+              <a href="#">
+                <%= image_tag @restaurant.image_url.to_s %>
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading"><%= @restaurant.name %></h4>
+              <div class="col-md-6 padding-left-0">
+              <ul class="list-group">
+              <% @restaurant.restaurant_features.each do |f| %>
+                  <li class="list-group-item"><%= f.name %></li>
+              <% end %>
+              </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+    </div>
+  </div>
+  <div class="h-10"></div>
+  <div class="row">
+    <div class="col-md-9">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            Available Menu
+          </h3>
+        </div>
+        <div class="panel-body">
+          <div class="col-md-3">
+            <button class="btn btn-default btn-widget">Veg</button>
+          </div>
+          <div class="col-md-3">
+            <button class="btn btn-default btn-widget">Non Veg</button>
+          </div>
+          <div class="col-md-3">
+            <button class="btn btn-default btn-widget">Chnies</button>
+          </div>
+          <div class="col-md-3">
+            <button class="btn btn-default btn-widget">Fix.Dinner</button>
+          </div>
+          <div class="h-10"></div>
+          <div class="col-md-3">
+            <button class="btn btn-default btn-widget">Fix.Lunch</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-body" style="height:300px;">
+          Basic panel example
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
+<%= link_to 'Back', restaurants_path %>
