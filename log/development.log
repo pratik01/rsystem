@@ -9323,3 +9323,42 @@ Started GET "/assets/restaurant_items.js?body=1" for 127.0.0.1 at 2015-09-02 10:
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-02 10:05:42 +0530
+
+
+Started GET "/" for 192.168.56.101 at 2015-09-03 11:56:25 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (31.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (242.5ms)[0m  SELECT "restaurants".* FROM "restaurants"
+  Rendered restaurants/index.html.erb within layouts/application (329.7ms)
+  Rendered components/_menu.html.erb (0.8ms)
+Completed 200 OK in 700ms (Views: 380.6ms | ActiveRecord: 244.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.56.101 at 2015-09-03 11:56:27 +0530
+
+
+Started GET "/assets/app.css?body=1" for 192.168.56.101 at 2015-09-03 11:56:27 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.56.101 at 2015-09-03 11:56:27 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.56.101 at 2015-09-03 11:56:27 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.56.101 at 2015-09-03 11:56:27 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.56.101 at 2015-09-03 11:56:27 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 192.168.56.101 at 2015-09-03 11:56:27 +0530
+
+
+Started GET "/assets/items.js?body=1" for 192.168.56.101 at 2015-09-03 11:56:27 +0530
+
+
+Started GET "/assets/restaurant_items.js?body=1" for 192.168.56.101 at 2015-09-03 11:56:27 +0530
+
+
+Started GET "/assets/application.js?body=1" for 192.168.56.101 at 2015-09-03 11:56:28 +0530
