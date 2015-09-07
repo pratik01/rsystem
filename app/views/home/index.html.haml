@@ -1,0 +1,19 @@
+.container
+  .row
+  - @restaurants.each do |r|
+    .col-sm-6.col-md-4
+      .thumbnail
+        %img{:src=>r.image_url.to_s}
+        .caption
+          %h3
+            = r.name
+          %p
+            = r.address1+","
+            = r.address2+","
+            = r.city+","
+            = r.state+","
+            = r.country+"-"
+            = r.zip_code
+          %p
+            %a.btn.btn-primary{:href=>"#"} Book
+            %a.btn.btn-default{:href=>"/home/#{r.id}"} View

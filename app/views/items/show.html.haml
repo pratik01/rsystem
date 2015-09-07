@@ -1,0 +1,11 @@
+.container
+  .panel.panel-default
+    .panel-body
+      %h4
+        = @item.name
+  - getItemLabel(@item.id).each do |il|
+    .panel.panel-default
+      .panel-heading
+        = il.name
+        = il.id
+      .panel-body

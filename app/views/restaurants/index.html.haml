@@ -1,0 +1,28 @@
+.row
+  .col-md-12
+    %section.panel
+      %header.panel-heading
+        R
+      .panel-body.table-responsive
+        %table.table-bordered.table
+          %thead
+            %tr
+              %th Image
+              %th Name
+              %th Contact
+              %th Actions
+          %tbody
+            - @restaurants.each do |restaurant|
+              %tr
+                %td{:width => "100"}= image_tag restaurant.image_url(:small).to_s
+                %td= restaurant.name
+                %td
+                  = restaurant.contact1
+                  ,#{restaurant.contact2}
+                %td
+                  %a.btn.btn-sm.btn-info{:href => "restaurants/#{restaurant.id}"}
+                    %i.glyphicon.glyphicon-move
+                  %a.btn.btn-sm.btn-default{:href => "restaurants/#{restaurant.id}/edit"}
+                    %i.glyphicon.glyphicon-pencil
+                  %a.btn.btn-sm.btn-danger{"data-confirm" => "Are you sure?", "data-method" => "delete", :href => "/restaurants/#{restaurant.id}", :rel => "nofollow"}
+                    %i.glyphicon.glyphicon-trash

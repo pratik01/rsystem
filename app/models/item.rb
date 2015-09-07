@@ -1,3 +1,9 @@
 class Item < ActiveRecord::Base
-  has_many :restaurant_items
+  include Tire::Model::Search
+  include Tire::Model::Callbacks
+  has_many :item_labels
+
+
+
 end
+Item.import

@@ -1,0 +1,29 @@
+<%= form_for(@item_label) do |f| %>
+  <% if @item_label.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@item_label.errors.count, "error") %> prohibited this item_label from being saved:</h2>
+
+      <ul>
+      <% @item_label.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="panel panel-default">
+      <div class="panel-heading">Item Label</div>
+      <div class="panel-body">
+        <div class="col-md-12">
+          <%= render :partial => "components/item_select_list",:locals => {:f => f,:n => "Item"} %>
+          <div class="form-group">
+            <label for="inputEmail">Label Name</label>
+            <%= f.text_field :name ,:class=>"form-control"%>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="actions">
+    <input type="submit" class="btn btn-primary" value="Save">
+    <%= link_to 'Back', item_labels_path,:class=>"btn btn-default" %>
+  </div>
+<% end %>

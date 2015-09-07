@@ -40,6 +40,12 @@ gem 'capistrano-rvm'
 gem 'capistrano-bundler'
 gem 'capistrano-rails'
 gem 'thin'
+
+gem 'tire'
+gem 'elasticsearch-model'
+gem 'elasticsearch-rails'
+
+gem 'haml-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

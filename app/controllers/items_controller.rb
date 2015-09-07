@@ -1,6 +1,8 @@
 class ItemsController < ApplicationController
   before_action :set_item, only: [:show, :edit, :update, :destroy]
-
+  include ItemLabelsHelper
+  include RestaurantItemsHelper
+  include RestaurantsHelper
   respond_to :html,:json
 
   def index
@@ -23,12 +25,12 @@ class ItemsController < ApplicationController
   def create
     @item = Item.new(item_params)
     @item.save
-    respond_with(@item)
+    redirect_to :controller => "items",:action => "index"
   end
 
   def update
     @item.update(item_params)
-    respond_with(@item)
+    redirect_to :controller => "items",:action => "index"
   end
 
   def destroy

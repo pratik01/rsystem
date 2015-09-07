@@ -1,0 +1,4 @@
+<div class="form-group">
+  <label for="inputEmail"><%= n %></label>
+  <%= select_tag :item_label_id,options_from_collection_for_select(@item_labels, :id, :name),:class=>"form-control"%>
+</div>

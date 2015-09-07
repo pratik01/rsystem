@@ -1,15 +1,18 @@
 class RestaurantsController < ApplicationController
   before_action :set_restaurant, only: [:show, :edit, :update, :destroy]
-
+  layout "admin"
   # GET /restaurants
   # GET /restaurants.json
   def index
-    @restaurants = Restaurant.all
+   # @restaurants = Restaurant.all
+    @restaurants = Restaurant.search(params)
   end
 
   # GET /restaurants/1
   # GET /restaurants/1.json
   def show
+    #@restaurants = Restaurant.joins(:restaurant_items).where("Restaurants.id = ?",params[:id])
+    #puts @restaurants.to_json
   end
 
   # GET /restaurants/new
@@ -25,7 +28,7 @@ class RestaurantsController < ApplicationController
   # POST /restaurants.json
   def create
     @restaurant = Restaurant.new(restaurant_params)
-
+    @restaurant.user_id = current_user.id
     respond_to do |format|
       if @restaurant.save
         format.html { redirect_to @restaurant, notice: 'Restaurant was successfully created.' }

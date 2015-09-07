@@ -13,4 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery-ui
+//= require plugins/iCheck/icheck
+//= require Director/app
+//= require Director/dashboard
 //= require_tree .

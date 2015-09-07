@@ -1,0 +1,17 @@
+.container
+  - @items_labels.each do |i|
+    .panel.panel-default
+      .panel-heading
+        = i.name
+      %table.table
+        %thead
+          %tr
+            %td Name
+            %td Price
+        %tbody
+          - RestaurantItem.findByItemLabelAndRestaurant(i.id,params[:rid]).each do |ri|
+            %tr
+              %td
+                = ri.name
+              %td
+                = ri.price.to_s+" Rs"

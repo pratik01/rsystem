@@ -1,16 +1,25 @@
 Rsystem::Application.routes.draw do
 
 
+  root "home#index"
+
+  resources :home
+
+  resources :item_labels do
+    collection do
+      get "list_restaurant_item"
+    end
+  end
+  get "item_labels/get_item_labels_by_item_id/:id" => "item_labels#get_item_labels_by_item_id"
+
+
   resources :restaurant_items
+
 
   resources :items
 
 
   resources :restaurant_features
-
-
-
-  root "restaurants#index"
 
   resources :restaurants
   devise_for :users

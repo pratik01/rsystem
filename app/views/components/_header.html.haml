@@ -1,0 +1,167 @@
+%header.header
+  %a.logo{:href => "/"}
+    System
+  / Header Navbar: style can be found in header.less
+  %nav.navbar.navbar-static-top{:role => "navigation"}
+    / Sidebar toggle button
+    %a.navbar-btn.sidebar-toggle{"data-toggle" => "offcanvas", :href => "#", :role => "button"}
+      %span.sr-only Toggle navigation
+      %span.icon-bar
+      %span.icon-bar
+      %span.icon-bar
+    .navbar-right
+      %ul.nav.navbar-nav
+        / Messages: style can be found in dropdown.less
+        %li.dropdown.messages-menu
+          %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+            %i.fa.fa-envelope
+            %span.label.label-success 4
+          %ul.dropdown-menu
+            %li.header You have 4 messages
+            %li
+              / inner menu: contains the actual data
+              %ul.menu
+                %li
+                  / start message
+                  %a{:href => "#"}
+                    .pull-left
+                      %img{:alt => "User Image", :class => "/assets-circle", :src => "/assets/26115.jpg"}/
+                    %h4
+                      Support Team
+                    %p Why not buy a new awesome theme?
+                    %small.pull-right
+                      %i.fa.fa-clock-o
+                      5 mins
+                / end message
+                %li
+                  %a{:href => "#"}
+                    .pull-left
+                      %img{:alt => "user image", :class => "/assets-circle", :src => "/assets/26115.jpg"}/
+                    %h4
+                      Director Design Team
+                    %p Why not buy a new awesome theme?
+                    %small.pull-right
+                      %i.fa.fa-clock-o
+                      2 hours
+                %li
+                  %a{:href => "#"}
+                    .pull-left
+                      %img{:alt => "user image", :class => "/assets-circle", :src => "/assets/avatar.png"}/
+                    %h4
+                      Developers
+                    %p Why not buy a new awesome theme?
+                    %small.pull-right
+                      %i.fa.fa-clock-o
+                      Today
+                %li
+                  %a{:href => "#"}
+                    .pull-left
+                      %img{:alt => "user image", :class => "/assets-circle", :src => "/assets/26115.jpg"}/
+                    %h4
+                      Sales Department
+                    %p Why not buy a new awesome theme?
+                    %small.pull-right
+                      %i.fa.fa-clock-o
+                      Yesterday
+                %li
+                  %a{:href => "#"}
+                    .pull-left
+                      %img{:alt => "user image", :class => "/assets-circle", :src => "/assets/avatar.png"}/
+                    %h4
+                      Reviewers
+                    %p Why not buy a new awesome theme?
+                    %small.pull-right
+                      %i.fa.fa-clock-o
+                      2 days
+            %li.footer
+              %a{:href => "#"} See All Messages
+        %li.dropdown.tasks-menu
+          %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+            %i.fa.fa-tasks
+            %span.label.label-danger 9
+          %ul.dropdown-menu
+            %li.header You have 9 tasks
+            %li
+              / inner menu: contains the actual data
+              %ul.menu
+                %li
+                  / Task item
+                  %a{:href => "#"}
+                    %h3
+                      Design some buttons
+                      %small.pull-right 20%
+                    .progress.progress-striped.xs
+                      .progress-bar.progress-bar-success{"aria-valuemax" => "100", "aria-valuemin" => "0", "aria-valuenow" => "20", :role => "progressbar", :style => "width: 20%"}
+                        %span.sr-only 20% Complete
+                / end task item
+                %li
+                  / Task item
+                  %a{:href => "#"}
+                    %h3
+                      Create a nice theme
+                      %small.pull-right 40%
+                    .progress.progress-striped.xs
+                      .progress-bar.progress-bar-danger{"aria-valuemax" => "100", "aria-valuemin" => "0", "aria-valuenow" => "20", :role => "progressbar", :style => "width: 40%"}
+                        %span.sr-only 40% Complete
+                / end task item
+                %li
+                  / Task item
+                  %a{:href => "#"}
+                    %h3
+                      Some task I need to do
+                      %small.pull-right 60%
+                    .progress.progress-striped.xs
+                      .progress-bar.progress-bar-info{"aria-valuemax" => "100", "aria-valuemin" => "0", "aria-valuenow" => "20", :role => "progressbar", :style => "width: 60%"}
+                        %span.sr-only 60% Complete
+                / end task item
+                %li
+                  / Task item
+                  %a{:href => "#"}
+                    %h3
+                      Make beautiful transitions
+                      %small.pull-right 80%
+                    .progress.progress-striped.xs
+                      .progress-bar.progress-bar-warning{"aria-valuemax" => "100", "aria-valuemin" => "0", "aria-valuenow" => "20", :role => "progressbar", :style => "width: 80%"}
+                        %span.sr-only 80% Complete
+            / end task item
+            %li.footer
+              %a{:href => "#"} View all tasks
+        / User Account: style can be found in dropdown.less
+        %li.dropdown.user.user-menu
+          %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+            %i.fa.fa-user
+            %span
+              Jane Doe
+              %i.caret
+          %ul.dropdown-menu.dropdown-custom.dropdown-menu-right
+            %li.dropdown-header.text-center Account
+            %li
+              %a{:href => "#"}
+                %i.fa.fa-clock-o.fa-fw.pull-right
+                %span.badge.badge-success.pull-right 10
+                Updates
+              %a{:href => "#"}
+                %i.fa.fa-envelope-o.fa-fw.pull-right
+                %span.badge.badge-danger.pull-right 5
+                Messages
+              %a{:href => "#"}
+                %i.fa.fa-magnet.fa-fw.pull-right
+                %span.badge.badge-info.pull-right 3
+                Subscriptions
+              %a{:href => "#"}
+                %i.fa.fa-question.fa-fw.pull-right
+                %span.badge.pull-right 11
+                FAQ
+            %li.divider
+            %li
+              %a{:href => "#"}
+                %i.fa.fa-user.fa-fw.pull-right
+                Profile
+              %a{"data-toggle" => "modal", :href => "#modal-user-settings"}
+                %i.fa.fa-cog.fa-fw.pull-right
+                Settings
+            %li.divider
+            %li
+              %a{:href => "#"}
+                %i.fa.fa-ban.fa-fw.pull-right
+                Logout

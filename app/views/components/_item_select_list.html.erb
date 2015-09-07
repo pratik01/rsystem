@@ -1,4 +1,4 @@
 <div class="form-group">
-  <label for="inputEmail">R</label>
+  <label for="inputEmail"><%= n %></label>
   <%= f.collection_select :item_id ,Item.all,:id,:name,{},:class=>"form-control"%>
 </div>

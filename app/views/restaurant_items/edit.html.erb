@@ -1,6 +1,5 @@
-<h1>Editing restaurant_item</h1>
+<div class="container">
 
-<%= render 'form' %>
+<%= render 'form',:locals => {:edit => "true"} %>
 
-<%= link_to 'Show', @restaurant_item %> |
-<%= link_to 'Back', restaurant_items_path %>
+</div>

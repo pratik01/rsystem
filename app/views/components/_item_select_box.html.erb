@@ -1,0 +1,21 @@
+<div class="form-group" id="item_data">
+  <label for="inputEmail"><%= n %></label>
+  <%= select_tag id, options_from_collection_for_select(@items, :id, :name),:prompt => 'Select',:class=>"form-control"%>
+</div>
+<div class="form-group" id="item_labels">
+  <label for="inputEmail">Item Label</label>
+  <select class="form-control" id="item_label_id"></select>
+</div>
+<script>
+    $(document).ready(function(){
+        $("#<%= id %>").change(function(){
+            if($(this).val()!=undefined && $(this).val()!=""){
+                $.ajax({url: '/item_labels/get_item_labels_by_item_id/'+$(this).val(),
+                    dataType: 'script'
+                });
+            }else{
+               $("#item_label_id").html("");
+            }
+        });
+    });
+</script>

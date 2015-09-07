@@ -1,0 +1,38 @@
+%aside.left-side.sidebar-offcanvas
+  / sidebar: style can be found in sidebar.less
+  %section.sidebar
+    / Sidebar user panel
+    .user-panel
+      .pull-left.image
+        %img{:alt => "User Image", :class => "/assets-circle", :src => "/assets/26115.jpg"}/
+      .pull-left.info
+        %p Hello, Jane
+        %a{:href => "#"}
+          %i.fa.fa-circle.text-success
+          Online
+    / search form
+    %form.sidebar-form{:action => "#", :method => "get"}
+      .input-group
+        %input.form-control{:name => "q", :placeholder => "Search...", :type => "text"}/
+        %span.input-group-btn
+          %button#search-btn.btn.btn-flat{:name => "seach", :type => "submit"}
+            %i.fa.fa-search
+    / /.search form
+    / sidebar menu: : style can be found in sidebar.less
+    %ul.sidebar-menu
+      %li.active
+        %a{:href => "index.html"}
+          %i.fa.fa-dashboard
+          %span Dashboard
+      %li
+        %a{:href => "/restaurants/"}
+          %i.fa.fa-ban
+          %span Restaurant
+      %li
+        %a{:href => "basic_form.html"}
+          %i.fa.fa-globe
+          %span Basic Elements
+      %li
+        %a{:href => "simple.html"}
+          %i.fa.fa-glass
+          %span Simple tables
