@@ -1,7 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: MyString
-
+  id: 10
+  name: Barbeque Nation
+  image: cambay-pavilion.jpg
+  user_id: 1
 two:
-  name: MyString
+  id: 2
+  name: Barbeque Nation
+  image: cambay-pavilion.jpg
+  user_id: 1
+three:
+  id: 3
+  name: Barbeque Nation
+  image: cambay-pavilion.jpg
+  user_id: 1

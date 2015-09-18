@@ -1,6 +1,6 @@
 class ItemLabelsController < ApplicationController
   before_action :set_item_label, only: [:show, :edit, :update, :destroy]
-
+  layout "admin"
   respond_to :html,:json,:js
 
   def index

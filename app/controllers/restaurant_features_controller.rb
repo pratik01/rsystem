@@ -1,7 +1,7 @@
 class RestaurantFeaturesController < ApplicationController
   before_action :set_restaurant_feature, only: [:show, :edit, :update, :destroy]
-
-  respond_to :html
+  layout "admin"
+  respond_to :html,:json
 
   def index
     @restaurant_features = RestaurantFeature.joins(:restaurant)

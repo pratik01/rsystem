@@ -7,6 +7,8 @@ class RestaurantsControllerTest < ActionController::TestCase
 
   test "should get index" do
     get :index
+    @r = assigns(:restaurants)
+    puts @r.to_json
     assert_response :success
     assert_not_nil assigns(:restaurants)
   end
@@ -26,6 +28,7 @@ class RestaurantsControllerTest < ActionController::TestCase
 
   test "should show restaurant" do
     get :show, id: @restaurant
+    assert_nil [@restaurant, true].uniq!
     assert_response :success
   end
 

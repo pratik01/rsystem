@@ -1,0 +1,790 @@
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (1.8ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+PG::UndefinedTable: ERROR:  relation "users" does not exist
+LINE 1: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC L...
+                               ^
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" ASC LIMIT 1000
+  [1m[36mUser Load (1.8ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE EXTENSION IF NOT EXISTS "plpgsql"
+  [1m[36m (3.8ms)[0m  [1mDROP TABLE "item_labels"[0m
+  [1m[35m (6.7ms)[0m  CREATE TABLE "item_labels" ("id" serial primary key, "name" character varying(255), "item_id" integer, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (3.1ms)[0m  [1mDROP TABLE "items"[0m
+  [1m[35m (8.8ms)[0m  CREATE TABLE "items" ("id" serial primary key, "name" character varying(255), "description" text, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (2.0ms)[0m  [1mDROP TABLE "restaurant_features"[0m
+  [1m[35m (7.7ms)[0m  CREATE TABLE "restaurant_features" ("id" serial primary key, "name" character varying(255), "restaurant_id" integer, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (2.0ms)[0m  [1mDROP TABLE "restaurant_items"[0m
+  [1m[35m (11.3ms)[0m  CREATE TABLE "restaurant_items" ("id" serial primary key, "name" character varying(255), "short_description" text, "price" float, "restaurant_id" integer, "item_label_id" integer, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (4.2ms)[0m  [1mDROP TABLE "restaurants"[0m
+  [1m[35m (11.4ms)[0m  CREATE TABLE "restaurants" ("id" serial primary key, "name" character varying(255), "image" character varying(255), "address1" character varying(255), "address2" character varying(255), "country" character varying(255), "state" character varying(255), "city" character varying(255), "zip_code" character varying(255), "latitude" character varying(255), "longitude" character varying(255), "is_publish" boolean, "is_active" boolean, "contact1" character varying(255), "contact2" character varying(255), "email" character varying(255), "description" text, "feature_list" text, "no_of_tables" integer, "created_at" timestamp, "updated_at" timestamp, "user_id" integer) 
+  [1m[36m (2.7ms)[0m  [1mDROP TABLE "roles"[0m
+  [1m[35m (9.0ms)[0m  CREATE TABLE "roles" ("id" serial primary key, "name" character varying(255) NOT NULL, "title" character varying(255) NOT NULL, "description" text NOT NULL, "the_role" text NOT NULL, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (3.1ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (9.0ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "role_id" integer) 
+  [1m[36m (3.7ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" USING btree ("email")[0m
+  [1m[35m (4.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" USING btree ("reset_password_token")
+  [1m[36m (0.5ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.7ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (1.6ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (1.3ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (0.7ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.7ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 07:41:15', '2015-09-11 07:41:15', 980190962)[0m
+  [1m[35mFixture Insert (1.3ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 07:41:15', '2015-09-11 07:41:15', 298486374)
+  [1m[36mFixture Delete (1.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "users" ("id", "email", "password", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', 'test123', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+PG::UndefinedColumn: ERROR:  column "password" of relation "users" does not exist
+LINE 1: INSERT INTO "users" ("id", "email", "password", "created_at"...
+                                            ^
+: INSERT INTO "users" ("id", "email", "password", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', 'test123', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.5ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (0.5ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (0.3ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (0.6ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 07:41:53', '2015-09-11 07:41:53', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 07:41:53', '2015-09-11 07:41:53', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (1.2ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:41:53', '2015-09-11 07:41:53', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:41:53', '2015-09-11 07:41:53', 298486374)[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 07:41:53', '2015-09-11 07:41:53')[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:41:53', '2015-09-11 07:41:53', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:41:53', '2015-09-11 07:41:53', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 07:41:53', '2015-09-11 07:41:53', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 07:41:53', '2015-09-11 07:41:53', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (1, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:41:53', '2015-09-11 07:41:53')[0m
+  [1m[35mFixture Insert (0.8ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (1, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:41:53', '2015-09-11 07:41:53')
+PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "restaurants_pkey"
+DETAIL:  Key (id)=(1) already exists.
+: INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (1, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:41:53', '2015-09-11 07:41:53')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.5ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (1.5ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (0.6ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (0.7ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (1.4ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 07:42:15', '2015-09-11 07:42:15', 980190962)[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 07:42:15', '2015-09-11 07:42:15', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:42:15', '2015-09-11 07:42:15', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:42:15', '2015-09-11 07:42:15', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 07:42:15', '2015-09-11 07:42:15')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:42:15', '2015-09-11 07:42:15', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:42:15', '2015-09-11 07:42:15', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 07:42:15', '2015-09-11 07:42:15', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 07:42:15', '2015-09-11 07:42:15', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (1, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:42:15', '2015-09-11 07:42:15')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:42:15', '2015-09-11 07:42:15')
+  [1m[36m (4.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+------------------------------------------------
+RestaurantsControllerTest: test_should_get_index
+------------------------------------------------
+  [1m[35mRestaurant Load (1.2ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1  [["id", 1]]
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.4ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" IN (2, 1, 3)[0m
+  Rendered restaurants/index.html.haml within layouts/admin (14.2ms)
+Completed 500 Internal Server Error in 140ms
+  [1m[35m (1.8ms)[0m  ROLLBACK
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.5ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (0.7ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.7ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (0.5ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (0.9ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 07:43:43', '2015-09-11 07:43:43', 980190962)[0m
+  [1m[35mFixture Insert (1.0ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 07:43:43', '2015-09-11 07:43:43', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:43:43', '2015-09-11 07:43:43', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:43:43', '2015-09-11 07:43:43', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 07:43:44', '2015-09-11 07:43:44')[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:43:44', '2015-09-11 07:43:44', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:43:44', '2015-09-11 07:43:44', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 07:43:44', '2015-09-11 07:43:44', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 07:43:44', '2015-09-11 07:43:44', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (1, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:43:44', '2015-09-11 07:43:44')[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:43:44', '2015-09-11 07:43:44')
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:43:44', '2015-09-11 07:43:44')[0m
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+------------------------------------------------
+RestaurantsControllerTest: test_should_get_index
+------------------------------------------------
+  [1m[36mRestaurant Load (1.1ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.7ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" IN (2, 1, 3)
+  Rendered restaurants/index.html.haml within layouts/admin (12.8ms)
+  Rendered components/_header.html.haml (17.3ms)
+  Rendered components/_menu.html.haml (5.8ms)
+  Rendered components/_footer.html.haml (0.9ms)
+Completed 200 OK in 94ms (Views: 81.7ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (2.4ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (1.0ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.9ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (1.1ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.7ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 07:46:27', '2015-09-11 07:46:27', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 07:46:27', '2015-09-11 07:46:27', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (3.7ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:46:27', '2015-09-11 07:46:27', 980190962)
+  [1m[36mFixture Insert (0.7ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:46:27', '2015-09-11 07:46:27', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 07:46:27', '2015-09-11 07:46:27')[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:46:27', '2015-09-11 07:46:27', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:46:27', '2015-09-11 07:46:27', 298486374)
+  [1m[36mFixture Delete (1.2ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 07:46:27', '2015-09-11 07:46:27', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 07:46:27', '2015-09-11 07:46:27', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (1, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:46:27', '2015-09-11 07:46:27')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:46:27', '2015-09-11 07:46:27')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:46:27', '2015-09-11 07:46:27')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+------------------------------------------------
+RestaurantsControllerTest: test_should_get_index
+------------------------------------------------
+  [1m[36mRestaurant Load (1.3ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.6ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" IN (2, 1, 3)
+  Rendered restaurants/index.html.haml within layouts/admin (11.3ms)
+  Rendered components/_header.html.haml (15.9ms)
+  Rendered components/_menu.html.haml (5.6ms)
+  Rendered components/_footer.html.haml (0.5ms)
+Completed 200 OK in 54ms (Views: 46.8ms | ActiveRecord: 0.6ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.9ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.5ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (0.6ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (1.2ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (0.8ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (0.9ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 07:47:05', '2015-09-11 07:47:05', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 07:47:05', '2015-09-11 07:47:05', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:47:05', '2015-09-11 07:47:05', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:47:05', '2015-09-11 07:47:05', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 07:47:05', '2015-09-11 07:47:05')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:47:05', '2015-09-11 07:47:05', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 07:47:05', '2015-09-11 07:47:05', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 07:47:05', '2015-09-11 07:47:05', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 07:47:05', '2015-09-11 07:47:05', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (1, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:47:05', '2015-09-11 07:47:05')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:47:05', '2015-09-11 07:47:05')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 07:47:05', '2015-09-11 07:47:05')[0m
+  [1m[35m (1.8ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+------------------------------------------------
+RestaurantsControllerTest: test_should_get_index
+------------------------------------------------
+  [1m[36mRestaurant Load (0.8ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.8ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" IN (2, 1, 3)
+  Rendered restaurants/index.html.haml within layouts/admin (17.9ms)
+  Rendered components/_header.html.haml (17.0ms)
+  Rendered components/_menu.html.haml (13.5ms)
+  Rendered components/_footer.html.haml (0.9ms)
+Completed 200 OK in 83ms (Views: 67.6ms | ActiveRecord: 0.8ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.7ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (0.5ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (0.9ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (0.6ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (2.4ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (9.0ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:19:35', '2015-09-11 08:19:35', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:19:35', '2015-09-11 08:19:35', 298486374)
+  [1m[36mFixture Delete (3.6ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (7.2ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:19:35', '2015-09-11 08:19:35', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:19:35', '2015-09-11 08:19:35', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 08:19:35', '2015-09-11 08:19:35')[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:19:35', '2015-09-11 08:19:35', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:19:35', '2015-09-11 08:19:35', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (10.9ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:19:35', '2015-09-11 08:19:35', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:19:35', '2015-09-11 08:19:35', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (1, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:19:35', '2015-09-11 08:19:35')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:19:35', '2015-09-11 08:19:35')
+  [1m[36mFixture Insert (4.5ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:19:35', '2015-09-11 08:19:35')[0m
+  [1m[35m (26.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+------------------------------------------------
+RestaurantsControllerTest: test_should_get_index
+------------------------------------------------
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.8ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" IN (2, 1, 3)
+  Rendered restaurants/index.html.haml within layouts/admin (14.0ms)
+  Rendered components/_header.html.haml (16.4ms)
+  Rendered components/_menu.html.haml (5.4ms)
+  Rendered components/_footer.html.haml (1.4ms)
+Completed 200 OK in 62ms (Views: 52.2ms | ActiveRecord: 0.8ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.4ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (0.5ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.7ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (0.4ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (0.8ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.6ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.8ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:20:22', '2015-09-11 08:20:22', 980190962)[0m
+  [1m[35mFixture Insert (1.1ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:20:22', '2015-09-11 08:20:22', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (1.6ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:20:22', '2015-09-11 08:20:22', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:20:22', '2015-09-11 08:20:22', 298486374)[0m
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (8.1ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 08:20:22', '2015-09-11 08:20:22')[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:20:22', '2015-09-11 08:20:22', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:20:22', '2015-09-11 08:20:22', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:20:22', '2015-09-11 08:20:22', 980190962)
+  [1m[36mFixture Insert (0.8ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:20:22', '2015-09-11 08:20:22', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (1, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:20:22', '2015-09-11 08:20:22')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:20:22', '2015-09-11 08:20:22')
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:20:22', '2015-09-11 08:20:22')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+------------------------------------------------
+RestaurantsControllerTest: test_should_get_index
+------------------------------------------------
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.5ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" IN (2, 1, 3)
+  Rendered restaurants/index.html.haml within layouts/admin (12.9ms)
+  Rendered components/_header.html.haml (24.8ms)
+  Rendered components/_menu.html.haml (8.0ms)
+  Rendered components/_footer.html.haml (1.0ms)
+Completed 200 OK in 80ms (Views: 63.4ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.9ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.8ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.5ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (0.5ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (1.8ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (1.3ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.7ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (1.9ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:21:03', '2015-09-11 08:21:03', 980190962)[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:21:03', '2015-09-11 08:21:03', 298486374)
+  [1m[36mFixture Delete (1.0ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:21:03', '2015-09-11 08:21:03', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:21:03', '2015-09-11 08:21:03', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 08:21:03', '2015-09-11 08:21:03')[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.7ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:21:03', '2015-09-11 08:21:03', 980190962)[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:21:03', '2015-09-11 08:21:03', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:21:03', '2015-09-11 08:21:03', 980190962)
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:21:03', '2015-09-11 08:21:03', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.7ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (1, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:21:03', '2015-09-11 08:21:03')[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:21:03', '2015-09-11 08:21:03')
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:21:03', '2015-09-11 08:21:03')[0m
+  [1m[35m (25.5ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+-----------------------------------------------
+RestaurantsControllerTest: test_should_get_edit
+-----------------------------------------------
+  [1m[36mRestaurant Load (1.6ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Processing by RestaurantsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRestaurant Load (0.7ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1  [["id", "1"]]
+  Rendered components/_text_box.html.haml (9.7ms)
+  Rendered components/_text_box.html.haml (0.3ms)
+  Rendered components/_text_box.html.haml (0.3ms)
+  Rendered components/_text_box.html.haml (0.2ms)
+  Rendered components/_text_box.html.haml (0.3ms)
+  Rendered components/_text_box.html.haml (0.4ms)
+  Rendered components/_text_box.html.haml (0.2ms)
+  Rendered components/_text_box.html.haml (0.2ms)
+  Rendered components/_text_box.html.haml (0.2ms)
+  Rendered components/_text_box.html.haml (0.3ms)
+  Rendered components/_text_box.html.haml (0.2ms)
+  Rendered components/_text_area.html.haml (3.2ms)
+  Rendered components/_text_area.html.haml (0.3ms)
+  Rendered restaurants/_form.html.haml (64.9ms)
+  Rendered restaurants/edit.html.haml within layouts/admin (71.0ms)
+  Rendered components/_header.html.haml (18.0ms)
+  Rendered components/_menu.html.haml (44.1ms)
+  Rendered components/_footer.html.haml (2.6ms)
+Completed 200 OK in 164ms (Views: 161.5ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.8ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (1.0ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (0.5ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (1.1ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (2.3ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:22:08', '2015-09-11 08:22:08', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:22:08', '2015-09-11 08:22:08', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:22:08', '2015-09-11 08:22:08', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:22:08', '2015-09-11 08:22:08', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 08:22:08', '2015-09-11 08:22:08')[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:22:08', '2015-09-11 08:22:08', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:22:08', '2015-09-11 08:22:08', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:22:08', '2015-09-11 08:22:08', 980190962)
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:22:08', '2015-09-11 08:22:08', 298486374)[0m
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.8ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (1, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:22:08', '2015-09-11 08:22:08')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:22:08', '2015-09-11 08:22:08')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:22:08', '2015-09-11 08:22:08')[0m
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+------------------------------------------------------
+RestaurantsControllerTest: test_should_show_restaurant
+------------------------------------------------------
+  [1m[36m (0.6ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.4ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (0.3ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.7ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (0.6ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (1.4ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:23:04', '2015-09-11 08:23:04', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:23:04', '2015-09-11 08:23:04', 298486374)
+  [1m[36mFixture Delete (0.6ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:23:04', '2015-09-11 08:23:04', 980190962)
+  [1m[36mFixture Insert (1.5ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:23:04', '2015-09-11 08:23:04', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 08:23:04', '2015-09-11 08:23:04')[0m
+  [1m[35mFixture Delete (0.6ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:23:04', '2015-09-11 08:23:04', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:23:04', '2015-09-11 08:23:04', 298486374)
+  [1m[36mFixture Delete (0.5ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:23:04', '2015-09-11 08:23:04', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:23:04', '2015-09-11 08:23:04', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (10, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:23:04', '2015-09-11 08:23:04')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:23:04', '2015-09-11 08:23:04')
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:23:04', '2015-09-11 08:23:04')[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+------------------------------------------------------
+RestaurantsControllerTest: test_should_show_restaurant
+------------------------------------------------------
+  [1m[36mRestaurant Load (1.2ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1[0m  [["id", 10]]
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mRestaurant Load (0.7ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1  [["id", "10"]]
+  [1m[36mRestaurantFeature Load (0.6ms)[0m  [1mSELECT "restaurant_features".* FROM "restaurant_features" WHERE "restaurant_features"."restaurant_id" = $1[0m  [["restaurant_id", 10]]
+  [1m[35mRestaurantItem Load (0.6ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" WHERE "restaurant_items"."restaurant_id" = $1  [["restaurant_id", 10]]
+  Rendered restaurants/show.html.haml within layouts/admin (26.7ms)
+  Rendered components/_header.html.haml (17.4ms)
+  Rendered components/_menu.html.haml (5.5ms)
+  Rendered components/_footer.html.haml (1.7ms)
+Completed 200 OK in 81ms (Views: 76.4ms | ActiveRecord: 1.9ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.7ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (0.8ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (0.5ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (0.9ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:23:36', '2015-09-11 08:23:36', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:23:36', '2015-09-11 08:23:36', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:23:36', '2015-09-11 08:23:36', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:23:36', '2015-09-11 08:23:36', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 08:23:36', '2015-09-11 08:23:36')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:23:36', '2015-09-11 08:23:36', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:23:36', '2015-09-11 08:23:36', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:23:36', '2015-09-11 08:23:36', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:23:36', '2015-09-11 08:23:36', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (10, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:23:36', '2015-09-11 08:23:36')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:23:36', '2015-09-11 08:23:36')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:23:36', '2015-09-11 08:23:36')[0m
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+------------------------------------------------------
+RestaurantsControllerTest: test_should_show_restaurant
+------------------------------------------------------
+  [1m[36mRestaurant Load (6.5ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1[0m  [["id", 10]]
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mRestaurant Load (0.6ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1  [["id", "10"]]
+  [1m[36mRestaurantFeature Load (0.7ms)[0m  [1mSELECT "restaurant_features".* FROM "restaurant_features" WHERE "restaurant_features"."restaurant_id" = $1[0m  [["restaurant_id", 10]]
+  [1m[35mRestaurantItem Load (6.7ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" WHERE "restaurant_items"."restaurant_id" = $1  [["restaurant_id", 10]]
+  Rendered restaurants/show.html.haml within layouts/admin (48.3ms)
+  Rendered components/_header.html.haml (30.4ms)
+  Rendered components/_menu.html.haml (6.2ms)
+  Rendered components/_footer.html.haml (0.5ms)
+Completed 200 OK in 133ms (Views: 118.6ms | ActiveRecord: 7.9ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (2.1ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.5ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (0.5ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (1.2ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (0.6ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (1.0ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (1.3ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:36:01', '2015-09-11 08:36:01', 980190962)[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:36:01', '2015-09-11 08:36:01', 298486374)
+  [1m[36mFixture Delete (0.9ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.8ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (1.3ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (0.7ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:01', '2015-09-11 08:36:01', 980190962)
+  [1m[36mFixture Insert (0.7ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:01', '2015-09-11 08:36:01', 298486374)[0m
+  [1m[35mFixture Delete (0.9ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 08:36:01', '2015-09-11 08:36:01')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:01', '2015-09-11 08:36:01', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:01', '2015-09-11 08:36:01', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:36:01', '2015-09-11 08:36:01', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:36:01', '2015-09-11 08:36:01', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (10, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:36:01', '2015-09-11 08:36:01')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:36:01', '2015-09-11 08:36:01')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:36:01', '2015-09-11 08:36:01')[0m
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+------------------------------------------------------
+RestaurantsControllerTest: test_should_show_restaurant
+------------------------------------------------------
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1[0m  [["id", 10]]
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mRestaurant Load (0.4ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1  [["id", "10"]]
+  [1m[36mRestaurantFeature Load (1.5ms)[0m  [1mSELECT "restaurant_features".* FROM "restaurant_features" WHERE "restaurant_features"."restaurant_id" = $1[0m  [["restaurant_id", 10]]
+  [1m[35mRestaurantItem Load (1.0ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" WHERE "restaurant_items"."restaurant_id" = $1  [["restaurant_id", 10]]
+  Rendered restaurants/show.html.haml within layouts/admin (28.7ms)
+  Rendered components/_header.html.haml (18.0ms)
+  Rendered components/_menu.html.haml (5.9ms)
+  Rendered components/_footer.html.haml (0.4ms)
+Completed 200 OK in 73ms (Views: 67.8ms | ActiveRecord: 3.0ms)
+  [1m[36m (3.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (0.7ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (0.7ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (0.8ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (1.5ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:36:12', '2015-09-11 08:36:12', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:36:12', '2015-09-11 08:36:12', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.9ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:12', '2015-09-11 08:36:12', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:12', '2015-09-11 08:36:12', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 08:36:12', '2015-09-11 08:36:12')[0m
+  [1m[35mFixture Delete (1.1ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:12', '2015-09-11 08:36:12', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:12', '2015-09-11 08:36:12', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:36:12', '2015-09-11 08:36:12', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:36:12', '2015-09-11 08:36:12', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (10, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:36:12', '2015-09-11 08:36:12')[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:36:12', '2015-09-11 08:36:12')
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:36:12', '2015-09-11 08:36:12')[0m
+  [1m[35m (12.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+------------------------------------------------------
+RestaurantsControllerTest: test_should_show_restaurant
+------------------------------------------------------
+  [1m[36mRestaurant Load (1.0ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1[0m  [["id", 10]]
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mRestaurant Load (1.1ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1  [["id", "10"]]
+  [1m[36mRestaurantFeature Load (0.7ms)[0m  [1mSELECT "restaurant_features".* FROM "restaurant_features" WHERE "restaurant_features"."restaurant_id" = $1[0m  [["restaurant_id", 10]]
+  [1m[35mRestaurantItem Load (0.5ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" WHERE "restaurant_items"."restaurant_id" = $1  [["restaurant_id", 10]]
+  Rendered restaurants/show.html.haml within layouts/admin (23.4ms)
+  Rendered components/_header.html.haml (24.1ms)
+  Rendered components/_menu.html.haml (6.1ms)
+  Rendered components/_footer.html.haml (1.4ms)
+Completed 200 OK in 74ms (Views: 70.0ms | ActiveRecord: 2.2ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (1.6ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (0.7ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.9ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (0.4ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (3.1ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.8ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (1.3ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:36:30', '2015-09-11 08:36:30', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:36:30', '2015-09-11 08:36:30', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:30', '2015-09-11 08:36:30', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:30', '2015-09-11 08:36:30', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 08:36:30', '2015-09-11 08:36:30')[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:30', '2015-09-11 08:36:30', 980190962)[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:30', '2015-09-11 08:36:30', 298486374)
+  [1m[36mFixture Delete (0.6ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:36:30', '2015-09-11 08:36:30', 980190962)
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:36:30', '2015-09-11 08:36:30', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (10, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:36:30', '2015-09-11 08:36:30')[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:36:30', '2015-09-11 08:36:30')
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:36:30', '2015-09-11 08:36:30')[0m
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+------------------------------------------------------
+RestaurantsControllerTest: test_should_show_restaurant
+------------------------------------------------------
+  [1m[36mRestaurant Load (1.4ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1[0m  [["id", 10]]
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mRestaurant Load (0.7ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1  [["id", "10"]]
+  [1m[36mRestaurantFeature Load (0.6ms)[0m  [1mSELECT "restaurant_features".* FROM "restaurant_features" WHERE "restaurant_features"."restaurant_id" = $1[0m  [["restaurant_id", 10]]
+  [1m[35mRestaurantItem Load (0.5ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" WHERE "restaurant_items"."restaurant_id" = $1  [["restaurant_id", 10]]
+  Rendered restaurants/show.html.haml within layouts/admin (23.7ms)
+  Rendered components/_header.html.haml (27.0ms)
+  Rendered components/_menu.html.haml (6.2ms)
+  Rendered components/_footer.html.haml (0.8ms)
+Completed 200 OK in 75ms (Views: 70.7ms | ActiveRecord: 1.8ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mItemLabel Load (2.4ms)[0m  [1mSELECT "item_labels".* FROM "item_labels" ORDER BY "item_labels"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantItem Load (0.3ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" ORDER BY "restaurant_items"."id" ASC LIMIT 1000
+  [1m[36mItem Load (0.8ms)[0m  [1mSELECT "items".* FROM "items" ORDER BY "items"."id" ASC LIMIT 1000[0m
+  [1m[35mRestaurantFeature Load (1.4ms)[0m  SELECT "restaurant_features".* FROM "restaurant_features" ORDER BY "restaurant_features"."id" ASC LIMIT 1000
+  [1m[36mRestaurant Load (0.5ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT 1000[0m
+  [1m[35m (0.7ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "item_labels" DISABLE TRIGGER ALL;ALTER TABLE "items" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_features" DISABLE TRIGGER ALL;ALTER TABLE "restaurant_items" DISABLE TRIGGER ALL;ALTER TABLE "restaurants" DISABLE TRIGGER ALL;ALTER TABLE "roles" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "item_labels"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:36:47', '2015-09-11 08:36:47', 980190962)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "item_labels" ("name", "created_at", "updated_at", "id") VALUES ('MyString', '2015-09-11 08:36:47', '2015-09-11 08:36:47', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "users" ("id", "email", "created_at", "updated_at", "encrypted_password", "sign_in_count") VALUES (1, 'test@gmail.com', '2015-05-02 02:28:01.509552', '2015-05-02 02:29:13.954971', '$2a$10$oukTaki.WyVl7dZNK0LGc.WsfeMsoVy/IPjT2hL3XG5zP0Wc5o2eC', 0)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "restaurant_items"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:47', '2015-09-11 08:36:47', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "restaurant_items" ("name", "short_description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:47', '2015-09-11 08:36:47', 298486374)[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "roles"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "roles" ("id", "name", "title", "description", "the_role", "created_at", "updated_at") VALUES (1, 'admin', 'admin', 'admin', 'admin', '2015-09-11 08:36:47', '2015-09-11 08:36:47')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "items"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:47', '2015-09-11 08:36:47', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "items" ("name", "description", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2015-09-11 08:36:47', '2015-09-11 08:36:47', 298486374)
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM "restaurant_features"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:36:47', '2015-09-11 08:36:47', 980190962)
+  [1m[36mFixture Insert (1.6ms)[0m  [1mINSERT INTO "restaurant_features" ("created_at", "updated_at", "id") VALUES ('2015-09-11 08:36:47', '2015-09-11 08:36:47', 298486374)[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "restaurants"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (10, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:36:47', '2015-09-11 08:36:47')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (2, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:36:47', '2015-09-11 08:36:47')
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "restaurants" ("id", "name", "image", "user_id", "created_at", "updated_at") VALUES (3, 'Barbeque Nation', 'cambay-pavilion.jpg', 1, '2015-09-11 08:36:47', '2015-09-11 08:36:47')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "item_labels" ENABLE TRIGGER ALL;ALTER TABLE "items" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_features" ENABLE TRIGGER ALL;ALTER TABLE "restaurant_items" ENABLE TRIGGER ALL;ALTER TABLE "restaurants" ENABLE TRIGGER ALL;ALTER TABLE "roles" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+------------------------------------------------------
+RestaurantsControllerTest: test_should_show_restaurant
+------------------------------------------------------
+  [1m[36mRestaurant Load (2.1ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1[0m  [["id", 10]]
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mRestaurant Load (1.2ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT 1  [["id", "10"]]
+  [1m[36mRestaurantFeature Load (1.1ms)[0m  [1mSELECT "restaurant_features".* FROM "restaurant_features" WHERE "restaurant_features"."restaurant_id" = $1[0m  [["restaurant_id", 10]]
+  [1m[35mRestaurantItem Load (0.7ms)[0m  SELECT "restaurant_items".* FROM "restaurant_items" WHERE "restaurant_items"."restaurant_id" = $1  [["restaurant_id", 10]]
+  Rendered restaurants/show.html.haml within layouts/admin (38.8ms)
+  Rendered components/_header.html.haml (19.4ms)
+  Rendered components/_menu.html.haml (20.0ms)
+  Rendered components/_footer.html.haml (1.0ms)
+Completed 200 OK in 103ms (Views: 98.0ms | ActiveRecord: 3.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35m (5030.4ms)[0m  DROP DATABASE IF EXISTS "rsystem_test"
+PG::ObjectInUse: ERROR:  database "rsystem_test" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+: DROP DATABASE IF EXISTS "rsystem_test"
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1000[0m
+  [1m[35m (5032.4ms)[0m  DROP DATABASE IF EXISTS "rsystem_test"
+PG::ObjectInUse: ERROR:  database "rsystem_test" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+: DROP DATABASE IF EXISTS "rsystem_test"

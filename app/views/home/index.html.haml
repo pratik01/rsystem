@@ -3,7 +3,7 @@
   - @restaurants.each do |r|
     .col-sm-6.col-md-4
       .thumbnail
-        %img{:src=>r.image_url.to_s}
+        %img{:src=>r.image_url.to_s,:style=>"height:225px;"}
         .caption
           %h3
             = r.name

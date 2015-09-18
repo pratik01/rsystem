@@ -1,0 +1,68 @@
+.container
+  .col-md-12
+    %section.panel.general
+      %header.panel-heading.tab-bg-dark-navy-blue
+        %ul.nav.nav-tabs
+          %li.active
+            %a{"data-toggle" => "tab", :href => "#home"} Home
+          %li
+            %a{"data-toggle" => "tab", :href => "#menu"} Menu
+          %li
+            %a{"data-toggle" => "tab", :href => "#gallery"} Gallery
+          %li
+            %a{"data-toggle" => "tab", :href => "#contact"} Contact
+      .panel-body
+        .tab-content
+          #home.tab-pane.active
+            .col-md-6.padding-left-0
+              %a.thumbnail{:href => "#"}
+                = image_tag @restaurant.image_url.to_s
+            .col-md-6.padding-left-0
+              %h3.top-margin-0
+                = @restaurant.name
+              .col-md-6.padding-left-0
+                %ul.list-group
+                  - @restaurant.restaurant_features.each do |f|
+                    %li.list-group-item= f.name
+              .col-md-6
+                = @restaurant.address1
+                = @restaurant.address2
+                = @restaurant.city
+                = @restaurant.state
+                = @restaurant.country
+                = @restaurant.zip_code
+            .col-md-12
+              .panel.panel-default
+                .panel-heading
+                  About
+                .panel-body
+                  %p
+                    = @restaurant.description
+          #menu.tab-pane
+            - @items.each do |i|
+              .panel.panel-default
+                .panel-body
+                  = i.name
+              - @item_labels.each do |il|
+                .panel.panel-default
+                  .panel-heading
+                    = il.name
+                  %table.table
+                    %thead
+                      %tr
+                        %td
+                          Name
+                        %td
+                          Price
+                    %tbody
+                      - RestaurantItem.findByItemLabelAndRestaurant(il.id,@restaurant.id).each do |ri|
+                        %tr
+                          %td
+                            = ri.name
+                          %td
+                            = ri.price
+          #gallery.tab-pane
+            test
+          #contact.tab-pane
+            .col-md-6
+              = image_tag "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&zoom=16&markers=#{@restaurant.latitude}%2C#{@restaurant.longitude}"

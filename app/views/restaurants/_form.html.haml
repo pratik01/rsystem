@@ -1,0 +1,52 @@
+= form_for(@restaurant) do |f|
+  - if @restaurant.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@restaurant.errors.count, "error")
+        prohibited this restaurant from being saved:
+      %ul
+        - @restaurant.errors.full_messages.each do |msg|
+          %li= msg
+  .col-md-6
+    .panel.panel-default
+      .panel-heading R Infomation
+      .panel-body
+        .col-md-12
+          = render :partial => "components/text_box",:locals => {:f=>f,:label=>"Name",:n=>"name"}
+          = render :partial => "components/text_box",:locals => {:f=>f,:label=>"Email",:n=>"email"}
+        .col-md-4
+          = render :partial => "components/text_box",:locals => {:f=>f,:label=>"Contact No 1",:n=>"contact1"}
+        .col-md-4
+          = render :partial => "components/text_box",:locals => {:f=>f,:label=>"Contact No 2",:n=>"contact2"}
+        .col-md-4
+          = render :partial => "components/text_box",:locals => {:f=>f,:label=>"No of tables",:n=>"no_of_tables"}
+        .col-md-12
+          .form-group
+            %label{:for => "inputEmail"} Default Image
+            = f.file_field :image ,:class=>"form-control"
+  .col-md-6
+    .panel.panel-default
+      .panel-heading Address
+      .panel-body
+        .col-md-12
+          = render :partial => "components/text_box",:locals => {:f=>f,:label=>"Address 1",:n=>"address1"}
+          = render :partial => "components/text_box",:locals => {:f=>f,:label=>"Address 2",:n=>"address2"}
+        .col-md-6
+          = render :partial => "components/text_box",:locals => {:f=>f,:label=>"Country",:n=>"country"}
+        .col-md-6
+          = render :partial => "components/text_box",:locals => {:f=>f,:label=>"State",:n=>"state"}
+        .col-md-6
+          = render :partial => "components/text_box",:locals => {:f=>f,:label=>"City",:n=>"city"}
+        .col-md-6
+          = render :partial => "components/text_box",:locals => {:f=>f,:label=>"Zip Code",:n=>"zip_code"}
+  .col-md-12
+    .panel.panel-default
+      .panel-heading Other
+      .panel-body
+        .col-md-12
+          = render :partial => "components/text_area",:locals => {:f=>f,:label=>"Description",:n=>"description"}
+          = render :partial => "components/text_area",:locals => {:f=>f,:label=>"Feature Of R",:n=>"feature_list"}
+  .col-md-12
+    %input.btn.btn-primary{:type => "submit",:id=>"save"}
+      = link_to 'Back', restaurants_path ,:class=>"btn btn-default"
+

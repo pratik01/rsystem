@@ -135,23 +135,6 @@
               %i.caret
           %ul.dropdown-menu.dropdown-custom.dropdown-menu-right
             %li.dropdown-header.text-center Account
-            %li
-              %a{:href => "#"}
-                %i.fa.fa-clock-o.fa-fw.pull-right
-                %span.badge.badge-success.pull-right 10
-                Updates
-              %a{:href => "#"}
-                %i.fa.fa-envelope-o.fa-fw.pull-right
-                %span.badge.badge-danger.pull-right 5
-                Messages
-              %a{:href => "#"}
-                %i.fa.fa-magnet.fa-fw.pull-right
-                %span.badge.badge-info.pull-right 3
-                Subscriptions
-              %a{:href => "#"}
-                %i.fa.fa-question.fa-fw.pull-right
-                %span.badge.pull-right 11
-                FAQ
             %li.divider
             %li
               %a{:href => "#"}
@@ -162,6 +145,6 @@
                 Settings
             %li.divider
             %li
-              %a{:href => "#"}
+              %a{"data-method"=>"delete",:href=>"/users/sign_out", :rel=>"nofollow"}
                 %i.fa.fa-ban.fa-fw.pull-right
                 Logout

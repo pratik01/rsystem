@@ -1,0 +1,36 @@
+.row
+  .col-md-12
+    .col-md-6.padding-left-0
+      %a.thumbnail{:href => "#"}
+        = image_tag @restaurant.image_url.to_s
+    .col-md-6.padding-left-0
+      %h3.top-margin-0
+        = @restaurant.name
+      .col-md-6.padding-left-0
+        %ul.list-group
+          - @restaurant.restaurant_features.each do |f|
+            %li.list-group-item= f.name
+      .col-md-6
+        = @restaurant.address1
+        = @restaurant.address2
+        = @restaurant.city
+        = @restaurant.state
+        = @restaurant.country
+        = @restaurant.zip_code
+    .h-10
+    .row
+      .col-md-8
+        .panel.panel-info
+          .panel-heading
+            Available Menu
+          .panel-body
+            - if !@restaurant.restaurant_items.nil? && !@restaurant.restaurant_items.blank?
+              - @items = ItemLabel.findItemByRestaurantId(@restaurant.id)
+              - @items.each do |i|
+                .col-md-3
+                  %a{:href => "/item_labels/list_restaurant_item?id=#{i.id}&rid=#{@restaurant.id}"}
+                    %button.btn.btn-primary.btn-widget= i.name
+      .col-md-4
+        .panel.panel-default
+          .panel-body{:style => "height:300px;"}
+            Basic panel example
